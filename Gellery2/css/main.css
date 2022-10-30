@@ -1,0 +1,84 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: barder-box;
+
+
+
+}
+
+h1{      
+font-family: Island Moments;
+width: 100%;
+text-align: center; 
+font-size: 75px;
+}
+div{
+background: red;
+
+}
+main{
+width: 70%;
+padding: 50px;
+margin: auto;
+background-color:turquoise;
+display: flex;
+flex-wrap: wrap; 
+justify-content:center;
+box-shadow: 0 0 10px 10px rgba(0,0,0,0.5);
+
+
+
+
+}
+
+.photo:hover{
+transform: scale(1.07) rotate(3deg);
+box-shadow: 0 0 10px 10px rgba(0,0,0,0.5);
+
+
+
+
+}
+.photo{
+width: calc(50% - 30px);
+height:calc((35vw - 30px)/16*9);
+margin:10px;
+background-color:orange;
+background-position: center;
+background-size: cover;
+transition: all 0.7s ease;
+box-shadow: 0 0 10px 10px rgba(0,0,0,0.5);
+
+}
+
+.photo1{
+ background-image: url(../img/img1.jpg);   
+}
+.photo2{
+ background-image: url(../img/img2.jpg);   
+}
+.photo3{
+ background-image: url(../img/img3.jpg);   
+}
+.photo4{
+ background-image: url(../img/img4.jpg);   
+}
+.photo5{
+ background-image: url(../img/img5.jpg);   
+}
+.photo6{
+ background-image: url(../img/img6.jpg);   
+}
+.photo7{
+ background-image: url(../img/img7.jpg);   
+}
+.photo8{
+ background-image: url(../img/img8.jpg);   
+}
+.photo9{
+ background-image: url(../img/img9.jpg);   
+}
+.photo10{
+ background-image: url(../img/img10.jpg);   
+}
